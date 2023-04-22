@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn
+
 model=pickle.load(open('logmodel.pkl','rb')) 
 
 def predict_baby(M,F,MY,CN):
